@@ -769,11 +769,9 @@ fieldset.quest_contact-inner::after {
   border: 2px solid @bright-element;
 }
 
-.quest__checkbox-input:focus + label:before {
+.quest__checkbox-input:focus + label::before {
   box-shadow: inset 0 2px 3px @base-text, 0 0 0 3px @bright-element;
 }
-
-///
 
 .quest__radio--input + label::before {
   content: "";
@@ -830,11 +828,6 @@ fieldset.quest_contact-inner::after {
   border: 2px solid @bright-element;
 }
 
-.quest__radio--input + label:focus::before {
-  border-color: #80bdff;
-  border: 6px solid @base-text;
-}
-
-.quest__radio--input:focus + label:before {
+.quest__radio--input:focus + label::before {
   box-shadow: 0 0 0 3px @bright-element;
 }
